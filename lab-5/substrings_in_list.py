@@ -28,6 +28,7 @@ def test(got, expected):
     print('{} got: {} expected: {}'.format(prefix, repr(got), repr(expected)))
 
 if __name__ == '__main__':
-    test(["mass","as","hero","superhero"], ["un","verse"])
-    test(["universe","un","verse"], ["un","verse"])
-    test(["blue","green","bu"], [])
+    test(substrings(["mass","as","hero","superhero"]), ["as","hero"])
+    test(substrings(["universe","un","verse"]), ["un","verse"])
+    test(substrings(["blue","green","bu"]), [])
+    
