@@ -22,8 +22,8 @@ def test(got, expected):
     print('{} got: {} expected: {}'.format(prefix, repr(got), repr(expected)))
 
 if __name__ == '__main__':
-    test('Hello', 'H*llo')
-    test('Cake', 'Cake')
-    test('@', '@')
-    test('He', 'He')
+    test(second_modify('Hello'), 'H*llo')
+    test(second_modify('Cake'), 'Cake')
+    test(second_modify('@'), '@')
+    test(second_modify('He'), 'He')
 
