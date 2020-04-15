@@ -25,5 +25,5 @@ if __name__ == '__main__':
     test('Hello', 'H*llo')
     test('Cake', 'Cake')
     test('@', '@')
-    test('He', 'H*')
+    test('He', 'He')
 
